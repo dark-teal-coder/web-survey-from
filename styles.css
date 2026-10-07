@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://teja12.kuikr.com/is/p/f/800x600/guide/wp-content/uploads/2021/06/1008259495.jpg);
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+h1, p {
+    color: white;
+    text-align: center; 
+}
+
+#description {
+    font-style: italic;
+}
+
+.form {
+    color: white;
+    width: 80%;
+    max-width: 500px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input.center, select, textarea {
+    width: 100%;
+    min-height: 2em;
+}
+
+#submit {
+    background-color: #676767;
+    color: white;
+    border: none;
+}
+
+#submit:hover {
+    font-size: 110%;
+    box-shadow: 0 0 0 3px white;
+}
