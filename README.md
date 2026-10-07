@@ -1,6 +1,3 @@
-https://dark-teal-coder.github.io/cert-ibm-data-science/
-
-
 <!-- README file for GitHub Pages website-->
 
 # Cafe Menu
@@ -11,7 +8,7 @@ https://dark-teal-coder.github.io/cert-ibm-data-science/
 
 - <ins>Website Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
 - <ins>First Published Date</ins>: 2025-03-06
-- <ins>Website URL</ins>: https://dark-teal-coder.github.io/web-cafe-menu/
+- <ins>Website URL</ins>: https://dark-teal-coder.github.io/cert-ibm-data-science/
 
 ## Project
 
