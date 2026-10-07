@@ -1,0 +1,85 @@
+<!DOCTYPE htmal>
+<head>
+    <!-- The "charset" attribute specifies the character encoding to "UTF-8", which makes it possible to use emojis and other characters not in the traditional ASCII character set. -->
+    <meta charset="utf-8" />
+    <!-- The "viewport" is the user's visible area of a web page. -->
+    <!-- The "width=device-width" part sets the width of the page to follow the screen-width of the device. -->
+    <!-- The "initial-scale=1.0" part sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function msg() {
+            alert("The form has been submitted.");
+        }
+    </script>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve.</p>
+    <div class="form">
+        <form id="survey-form">
+            <article class="item">
+                <label id="name-label">Name</label>
+                <br>
+                <input type="text" id="name" class="center" placeholder="Enter your name" required>
+            </article>
+            <br>
+            <article class="item">
+                <label id="email-label">Email</label>
+                <br>
+                <input type="email" id="email" class="center" placeholder="Enter your email" required>
+            </article>
+            <br>
+            <article class="item">
+                <label id="number-label">Age (optional)</label>
+                <br>
+                <input type="number" id="number" class="center" min=0 max=100 placeholder="Age">
+            </article>
+            <br>
+            <article class="item">
+                <label>What is your highest educational level?</label>
+                <br>
+                <select name="edu_level" id="dropdown">
+                    <option value="" selected disabled>Select an option</option>
+                    <option value="Primary">Primary school</option>
+                    <option value="Secondary">Secondary school</option>
+                    <option value="Pre-university">Pre-university education</option>
+                    <option value="Bachelor">Bachelor's degree</option>
+                    <option value="Master">Master's degree</option>
+                    <option value="Doctorate">Doctorate degree</option>
+                    <option value="notsay">Prefer not to say</option>
+                </select>
+            </article>
+            <br>
+            <article class="item">
+                <label>What was your class type?</label>
+                <br>
+                <input type="radio" id="online" name="class_type" value="Online">
+                <label for="online">Online</label><br>
+                <input type="radio" id="offline" name="class_type" value="Offline">
+                <label for="offline">In person</label><br>
+            </article>
+            <br>
+            <article class="item">
+                <label>Which course(s) did you take?</label>
+                <br>
+                <input type="checkbox" id="course1" name="course1" value="English">
+                <label for="course1">English</label><br>
+                <input type="checkbox" id="course2" name="course2" value="Mathematics">
+                <label for="course2">Mathematics</label><br>
+                <input type="checkbox" id="course3" name="course3" value="Computer">
+                <label for="course3">Computer Science</label><br>
+                <input type="checkbox" id="course4" name="course4" value="Business">
+                <label for="course4">Business</label>
+            </article>
+            <br>
+            <article class="item">
+                <label for="feedback">Any comments or suggestions?</label>
+                <textarea id="feedback" name="feedback" placeholder="Enter your feedback here."></textarea>
+            </article>
+            <br>
+            <input type="submit" id="submit" value="Submit" class="center" onclick="msg()">
+        </form>
+    </div>
+</body>
