@@ -24,9 +24,7 @@
 
 ## Repository Description
 
-This repository demonstrates how to create a basic survey form. 
-It uses more CSS than other websites in my portfolio. \
-Please feel free to use the template to create your own survey form.
+This repository demonstrates how to create a basic survey form using different input types. Please feel free to use the template to create your own survey form.
 
 ## Credits 
 
