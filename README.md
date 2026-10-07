@@ -7,7 +7,7 @@
 <img src="./qrcode-cafe-menu.png" alt="QR code" width="20%" height="20%" align="right" style="margin:0px 5%; padding: 5px;">
 
 - <ins>Website Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
-- <ins>First Published Date</ins>: 2025-03-06
+- <ins>First Published Date</ins>: 2026-10-07
 - <ins>Website URL</ins>: https://dark-teal-coder.github.io/cert-ibm-data-science/
 
 ## Project
