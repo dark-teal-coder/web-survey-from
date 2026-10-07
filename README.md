@@ -14,8 +14,8 @@
 
 - **Title**: *English Sentence Patterns Website*
 - **Difficulty**:
-  - [ ] Beginner
-  - [x] Intermediate
+  - [x] Beginner
+  - [ ] Intermediate
   - [ ] Advanced
 - **Scale**:
   - [x] Small
