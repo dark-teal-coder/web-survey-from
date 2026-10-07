@@ -12,7 +12,7 @@
 
 ## Project
 
-- **Title**: *English Sentence Patterns Website*
+- **Title**: *Survey Form*
 - **Difficulty**:
   - [x] Beginner
   - [ ] Intermediate
@@ -24,7 +24,7 @@
 
 ## Repository Description
 
-This repository demonstrates how to design a cafe menu. It uses more CSS than other websites in my portfolio. Please feel free to use the template to create your own cafe menu.  
+...
 
 ## Credits 
 
